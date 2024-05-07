@@ -1,0 +1,236 @@
+.pagetop {
+    /* position: absolute;
+    padding: 0;
+    
+    top: 0;
+    left: 0; */
+    padding: 0px;
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    z-index: 4;
+    font-size: 16px;
+    background-color: white;
+    color: #1a31b6;
+
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    display: inline;
+    /* float: left; */
+
+}
+
+#subtop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li {
+    float: left;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navi a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    height: 25px;
+    top: 2px;
+}
+
+/* .navi a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+} */
+.navi a:hover:not(.active) {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.active {
+    background-color: #212222;
+    color: white;
+
+}
+
+.navi {
+
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    position: fixed;
+    width: 50%;
+    display: block;
+}
+
+#search {
+    position: relative;
+    display: block;
+    padding: 16px 8px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 30px;
+}
+
+#subtop {
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    /* padding-top: 6px; */
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+    top: 56px;
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+#subtop a {
+    display: inline-block;
+    width: auto;
+    margin: 0 !important;
+    /* padding: 5px 15px 5px 15px !important; */
+    font-size: 15px !important;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.topright {
+    background-color: white;
+    float: right;
+    position: relative;
+    display: block;
+    margin-left: 60%;
+    height: 100%;
+    padding-right: 5px;
+    right: 0;
+    overflow: hidden;
+
+
+}
+
+.topright ul li a {
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-left: -110px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.grid-item {
+
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: #E7E9EB;
+}
+
+.grid-item-right {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+
+}
+
+.grid-item-right a {
+    font-size: medium;
+}
+
+.active {
+    /* background-color: white; */
+    border-radius: 20px;
+    color: black;
+}
+.active a:hover{
+    background-color: #04AA6D;
+    color: red;
+}
+.active li:hover{
+    background-color:#04AA6D;border-top-right-radius: 20px;border-bottom-right-radius: 20px;margin-top:5px;
+}
+.boxcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Adjust if you want different box heights */
+    height: 300px; /* Adjust height as needed */
+    margin-top: 40px;
+}
+.box {
+    flex: 1; /* This makes both boxes take up equal space */
+
+    padding: 6%;
+    box-sizing: border-box;
+   
+}
+.smallgrid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    /* background-color: #2196F3; */
+    padding: 5px;
+     margin-left: 150px; 
+    /* justify-content: space-evenly; */
+  }
+  
+  .smallgrid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+   padding: 6%;
+    width: 150px;height: 100px;border-style: solid; border-radius: 10px;
+  }
+
